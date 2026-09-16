@@ -1,18 +1,12 @@
-CloudflareSpeedTest 安卓9 Termux 部署指南
- 
 适配：Android 9 · arm64-v8a · Termux · v2.3.5
- 
- 
  
 设备环境
  
-- 系统: Android 9
-- 架构:  arm64-v8a  (ARM aarch64)
-- 终端: Termux
-- 项目: CloudflareSpeedTest (XIU2) v2.3.5
-- 包名:  cfst_linux_arm64.tar.gz 
- 
- 
+- 系统：Android 9
+- 架构： arm64-v8a  (ARM aarch64)
+- 终端：Termux
+- 项目：CloudflareSpeedTest (XIU2) v2.3.5
+- 包名： cfst_linux_arm64.tar.gz 
  
 完整部署步骤
  
@@ -76,8 +70,6 @@ chmod +x cfst
 ./cfst
  
  
- 
- 
 日常使用
  
 bash
@@ -104,8 +96,6 @@ bash
 ./cfst -dn 0
  
  
- 
- 
 避坑要点
  
 - ❌ 不能直接  ./cfst  → 必须先  cd cfst_linux_arm64 
@@ -114,11 +104,9 @@ bash
 - ✅  chmod +x  仅首次执行一次
 - ✅ 自带  ip.txt  /  ipv6.txt ，无需额外配置
  
- 
- 
 目录结构
  
-text
+plaintext
   
 ~/
 ├── cfst_linux_arm64.tar.gz   # 安装包
@@ -127,8 +115,3 @@ text
     ├── ip.txt                 # IPv4地址库
     ├── ipv6.txt               # IPv6地址库
     └── ...
- 
- 
- 
- 
-✅ 以上内容为标准 Markdown (MD) 格式，代码块可直接在 GitHub 点击复制按钮，无需手动全选。备份到仓库可直接新建  .md  文件，全文粘贴即可。
