@@ -96,7 +96,7 @@ bash
 ./cfst -dn 0
  
  
-避坑要点
+## 避坑要点
  
 - ❌ 不能直接  ./cfst  → 必须先  cd cfst_linux_arm64 
 - ❌ 架构别选错： arm64-v8a  → linux-arm64，不要选 amd64
@@ -104,10 +104,7 @@ bash
 - ✅  chmod +x  仅首次执行一次
 - ✅ 自带  ip.txt  /  ipv6.txt ，无需额外配置
  
-目录结构
- 
-plaintext
-  
+### 目录结构
 ~/
 ├── cfst_linux_arm64.tar.gz   # 安装包
 └── cfst_linux_arm64/         # 程序目录
