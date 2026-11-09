@@ -1,4 +1,3 @@
-```markdown
 # CloudflareSpeedTest Termux 部署指南
 
 适配：Android 9 · arm64-v8a · Termux · v2.3.5
